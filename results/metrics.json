@@ -1,0 +1,34 @@
+{
+  "cross_battery_holdout": {
+    "r2": 0.998,
+    "mse": 0.1201,
+    "rmse": 0.3465,
+    "mae": 0.272,
+    "n_test": 132,
+    "setup": "train=B0005+B0006+B0007, test=B0018 (unseen battery)"
+  },
+  "cross_battery_no_duration_feature": {
+    "r2": 0.5693,
+    "mse": 25.6353,
+    "rmse": 5.0631,
+    "mae": 4.3948,
+    "n_test": 132,
+    "setup": "train=B0005+B0006+B0007, test=B0018, discharge_duration_s excluded (mid-cycle-realistic feature set)"
+  },
+  "pooled_random_split": {
+    "r2": 0.999,
+    "mse": 0.0894,
+    "rmse": 0.299,
+    "mae": 0.2373,
+    "n_test": 128,
+    "setup": "80/20 random split, all 4 batteries pooled (optimistic)"
+  },
+  "rated_capacity_ah": 2.0,
+  "batteries_used": [
+    "B0005",
+    "B0006",
+    "B0007",
+    "B0018"
+  ],
+  "n_cycles_total": 636
+}
