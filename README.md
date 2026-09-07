@@ -1,6 +1,6 @@
 # ReCell AI — Battery State-of-Health Estimation
 
-A machine learning pipeline that estimates the State of Health (SoH) of
+A machine learning pipeline that estimates the State of Health (SoH) of the
 lithium-ion 18650 cells from charge/discharge telemetry, using the
 NASA Ames Prognostics Center of Excellence (PCoE) Li-ion Battery Aging
 dataset (batteries B0005, B0006, B0007, B0018).
